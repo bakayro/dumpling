@@ -1,0 +1,97 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?f857901a8c344381dc36b6a7aca287d8") format("truetype"),
+url("./flaticon.woff?f857901a8c344381dc36b6a7aca287d8") format("woff"),
+url("./flaticon.woff2?f857901a8c344381dc36b6a7aca287d8") format("woff2"),
+url("./flaticon.eot?f857901a8c344381dc36b6a7aca287d8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?f857901a8c344381dc36b6a7aca287d8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "facebook": "\f101",
+    "youtube": "\f102",
+    "clock": "\f103",
+    "search": "\f104",
+    "twitter": "\f105",
+    "like": "\f106",
+    "print": "\f107",
+    "share": "\f108",
+    "comment": "\f109",
+    "clock-1": "\f10a",
+    "user": "\f10b",
+    "market-fluctuation": "\f10c",
+    "left-arrow": "\f10d",
+    "next": "\f10e",
+    "instagram": "\f10f",
+    "close": "\f110",
+    "back-arrow": "\f111",
+    "magnifying-glass": "\f112",
+);
+
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-like:before {
+    content: map-get($flaticon-map, "like");
+}
+.flaticon-print:before {
+    content: map-get($flaticon-map, "print");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-clock-1:before {
+    content: map-get($flaticon-map, "clock-1");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-market-fluctuation:before {
+    content: map-get($flaticon-map, "market-fluctuation");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-next:before {
+    content: map-get($flaticon-map, "next");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-close:before {
+    content: map-get($flaticon-map, "close");
+}
+.flaticon-back-arrow:before {
+    content: map-get($flaticon-map, "back-arrow");
+}
+.flaticon-magnifying-glass:before {
+    content: map-get($flaticon-map, "magnifying-glass");
+}
